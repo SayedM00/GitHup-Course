@@ -1,0 +1,7 @@
+- Clone From Githup: 				(git clone link of your repo) 
+- Display Directory status: 			(git status)
+- Add files to staging area: 			(git add filename filename or git add *)
+- Remove files from staging area: 		(git reset head filename)
+- Add Files to local repo: 			(git commit -m "your message")
+- Add Fiels to remote repo: 			(git push remotename branchname)
+- Display Branches: 				(git branch)

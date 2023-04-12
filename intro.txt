@@ -1,0 +1,40 @@
+What is Git or Githup? 
+
+- Git is Distribute version control system.
+- Githup can use git without githup.
+- Open Source.
+
+
+Why you must learn Git?
+
+- Devs contribute to the same project.
+- You can revert changes.
+- You can collaborate fix issues.
+- You can collaborate to create new features.
+- You can solve confilicts.
+- You can organize features. 
+
+
+Wouds you will hear.
+
+- Repository.
+- Branch.
+- Local Repo.
+- Remote Repo.
+- Commit (snapshot or checkpoint in your local Repo).
+- Clone (from Local or Remote).
+- Push (Upload local changes to remote).
+- Pull (you pull changes from local Repo to your local).
+- Pull Request (tell other about your changes to pull it from local to remote).
+
+
+Impportant Notes.
+
+- Create repository for every project.
+- create a new branch for every feature or enhancement.
+- no need to connect ot remote repo when working.
+- anyone can push and pull depend on permissions.
+
+
+
+
