@@ -4,4 +4,9 @@
 - Remove files from staging area: 		(git reset head filename)
 - Add Files to local repo: 			(git commit -m "your message")
 - Add Fiels to remote repo: 			(git push remotename branchname)
+- Pull Files from remote repo:		(git pull remotename)
 - Display Branches: 				(git branch)
+- Display Global Configuration		(git config -l)
+- Display specific config value		(git config --global theconfigthing) theconfigthing=user.email
+- Edit specific config value			(git config --global theconfigthing newvalue) theconfigthing=user.email 
+- Delete config					(git config --global --unset theconfig) theconfig=user.name
