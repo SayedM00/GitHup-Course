@@ -1,14 +1,14 @@
-- Clone From Githup: 				          (git clone link of your repo) 
-- Display Directory status: 			    (git status)
-- Add files to staging area: 			    (git add filename filename or git add *)
-- Remove files from staging area: 		(git reset head filename)
-- Add Files to local repo: 			      (git commit -m "your message")
-- Add Fiels to remote repo: 			    (git push remotename branchname)
-- Pull Files from remote repo:		    (git pull remotename)
-- Display Branches: 				          (git branch)
-- Display Global Configuration		    (git config -l)
-- Display specific config value		    (git config --global theconfigthing) theconfigthing=user.email
-- Edit specific config value			    (git config --global theconfigthing newvalue) theconfigthing=user.email 
-- Delete config					              (git config --global --unset theconfig) theconfig=user.name
-- Create Public Key				(ssh-keygen -t rsa -b 4096 -C "your email") then you can see the public key with cat command on the file that public key in it
-
+- Clone From Githup: 				          	(git clone link of your repo) 
+- Display Directory status: 			    		(git status)
+- Add files to staging area: 			    		(git add filename filename or git add *)
+- Remove files from staging area: 				(git reset head filename)
+- Add Files to local repo: 			      	(git commit -m "your message")
+- Add Fiels to remote repo: 			    		(git push remotename branchname)
+- Pull Files from remote repo:		    		(git pull remotename)
+- Display Branches: 				          	(git branch)
+- Display Global Configuration		    		(git config -l)
+- Display specific config value		    		(git config --global theconfigthing) theconfigthing=user.email
+- Edit specific config value			    		(git config --global theconfigthing newvalue) theconfigthing=user.email 
+- Delete config					            (git config --global --unset theconfig) theconfig=user.name
+- Create Public Key						(ssh-keygen -t rsa -b 4096 -C "your email") then you can see the public key with cat command on the file that public key in it cat C:\anything\anything/.ssh/id_rsa.pub
+- To Confirm the Public Key					(ssh -T git@github.com) then enter the password you create with public key
