@@ -10,3 +10,5 @@
 - Display specific config value		    (git config --global theconfigthing) theconfigthing=user.email
 - Edit specific config value			    (git config --global theconfigthing newvalue) theconfigthing=user.email 
 - Delete config					              (git config --global --unset theconfig) theconfig=user.name
+- Create Public Key				(ssh-keygen -t rsa -b 4096 -C "your email") then you can see the public key with cat command on the file that public key in it
+
