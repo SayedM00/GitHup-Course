@@ -4,7 +4,7 @@
 - Remove files from staging area: 				(git reset head filename)
 - Add Files to local repo: 			      	(git commit -m "your message")
 - Add Fiels to remote repo: 			    		(git push remotename branchname)
-- Pull Files from remote repo:		    		(git pull remotename)
+- Pull Files from remote repo:		    		(git pull remotename branch)
 - Display Branches: 				          	(git branch)
 - Display Global Configuration		    		(git config -l)
 - Display specific config value		    		(git config --global theconfigthing) theconfigthing=user.email
@@ -23,6 +23,9 @@
 									-d can't delete if brach has content, -D delete Force
 - Rename branchname move the branch first			(git branch -m newbranchname)
 - Merge branch with main or master				(git merge branchname)
+- Store files 							(git stash)
+- Display stash box						(git stash list)
+- Bring things from stash box					(git stash pop)
 
 
 
