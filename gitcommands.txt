@@ -14,4 +14,16 @@
 - To Confirm the Public Key					(ssh -T git@github.com) then enter the password you create with public key
 - Create local repo						(git init)
 - Create Branch name						(git branch -M thebranchname)
+- Create Alias name 						(git config --global alias.newname commant)
+- Display branches 						(git branch)
+- Create new branch 						(git branch branchname)
+- Create new branch and move to it 				(git checkout -b branchname)
+- Move to any branch						(git checkout branchname)
+- Remove branch							(git branch -d branchname)
+									-d can't delete if brach has content, -D delete Force
+- Rename branchname move the branch first			(git branch -m newbranchname)
+- Merge branch with main or master				(git merge branchname)
+
+
+
 
