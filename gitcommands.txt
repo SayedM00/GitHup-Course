@@ -1,31 +1,42 @@
-- Clone From Githup: 				          	(git clone link of your repo) 
-- Display Directory status: 			    		(git status)
-- Add files to staging area: 			    		(git add filename filename or git add *)
-- Remove files from staging area: 				(git reset head filename)
-- Add Files to local repo: 			      	(git commit -m "your message")
-- Add Fiels to remote repo: 			    		(git push remotename branchname)
-- Pull Files from remote repo:		    		(git pull remotename branch)
-- Display Branches: 				          	(git branch)
-- Display Global Configuration		    		(git config -l)
-- Display specific config value		    		(git config --global theconfigthing) theconfigthing=user.email
-- Edit specific config value			    		(git config --global theconfigthing newvalue) theconfigthing=user.email 
-- Delete config					            (git config --global --unset theconfig) theconfig=user.name
-- Create Public Key						(ssh-keygen -t rsa -b 4096 -C "your email") then you can see the public key with cat command on the file that public key in it cat C:\anything\anything/.ssh/id_rsa.pub
-- To Confirm the Public Key					(ssh -T git@github.com) then enter the password you create with public key
-- Create local repo						(git init)
-- Create Branch name						(git branch -M thebranchname)
-- Create Alias name 						(git config --global alias.newname commant)
-- Display branches 						(git branch)
-- Create new branch 						(git branch branchname)
-- Create new branch and move to it 				(git checkout -b branchname)
-- Move to any branch						(git checkout branchname)
-- Remove branch							(git branch -d branchname)
-									-d can't delete if brach has content, -D delete Force
-- Rename branchname move the branch first			(git branch -m newbranchname)
-- Merge branch with main or master				(git merge branchname)
-- Store files 							(git stash)
-- Display stash box						(git stash list)
-- Bring things from stash box					(git stash pop)
+- Clone From Githup: 				          				(git clone link of your repo) 
+- Display Directory status: 			    					(git status)
+- Add files to staging area: 			    					(git add filename filename or git add *)
+- Remove files from staging area: 							(git reset head filename)
+- Add Files to local repo: 			      				(git commit -m "your message")
+- Add Fiels to remote repo: 			    					(git push remotename branchname)
+- Pull Files from remote repo:		    					(git pull remotename branch)
+- Display Branches: 				          				(git branch)
+- Display Global Configuration		    					(git config -l)
+- Display specific config value		    					(git config --global theconfigthing) theconfigthing=user.email
+- Edit specific config value			    					(git config --global theconfigthing newvalue) theconfigthing=user.email 
+- Delete config					            			(git config --global --unset theconfig) theconfig=user.name
+- Create Public Key									(ssh-keygen -t rsa -b 4096 -C "your email") then you can see the public key with cat command on the file that public key in it cat C:\anything\anything/.ssh/id_rsa.pub
+- To Confirm the Public Key								(ssh -T git@github.com) then enter the password you create with public key
+- Create local repo									(git init)
+- Create Branch name									(git branch -M thebranchname)
+- Create Alias name 									(git config --global alias.newname commant)
+- Display branches 									(git branch)
+- Create new branch 									(git branch branchname)
+- Create new branch and move to it 							(git checkout -b branchname)
+- Move to any branch									(git checkout branchname)
+- Remove branch										(git branch -d branchname)
+												-d can't delete if brach has content, -D delete Force
+- Rename branchname move the branch first						(git branch -m newbranchname)
+- Merge branch with main or master							(git merge branchname)
+- Store files or save									(git stash)
+- Store files or save with message 							(git stash save "message")
+- Display stash box									(git stash list)
+- Display the things content inside stashbox (last one you added)		(git stash show)
+- Display the things content inside stashbox (last one you added) id	(git stash show stash@{the item number})
+- Bring things from stashbox	(last one you added)				(git stash pop)
+- Bring things from stashbox but still there is a copy in the stash 	(git stash apply)
+- Bring things from stashbox with id 						(git stash pop stash@{the item number})
+- Remove thing from stashbox (last one you added)				(git stash drop)
+- Remove thing from stashbox with id						(git stash drop stash@{the item nubmer})
+- Clear stashbox 										(git stash clear)
+- Restore file from stagin area 							(git restore --staged filename)
+- Remove File (-n will show files will removing, -f will remove)		(git clean -n or -f)
+
 
 
 
