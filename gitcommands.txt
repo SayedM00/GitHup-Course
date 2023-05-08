@@ -36,8 +36,7 @@
 - Clear stashbox 										(git stash clear)
 - Restore file from stagin area 							(git restore --staged filename)
 - Remove File (-n will show files will removing, -f will remove)		(git clean -n or -f)
-
-
+- Ignore files 										first create a file with name => .gitignore and inside that file you can put any file with his extention to ignore this file also you can push any file with force if it ignored like git push -f filename ===> search about git ignore patterns <===
 
 
 
