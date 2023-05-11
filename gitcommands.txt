@@ -37,9 +37,15 @@
 - Restore file from stagin area 							(git restore --staged filename)
 - Remove File (-n will show files will removing, -f will remove)		(git clean -n or -f)
 - Ignore files 										first create a file with name => .gitignore and inside that file you can put any file with his extention to ignore this file also you can push any file with force if it ignored like git push -f filename ===> search about git ignore patterns <===
-- There are 2 tags lighweight, anotated 
+- There are 2 tags lighweight, annotated 
 - Create new tag										(git tag tagname) 
 - Push Tag											(git push origin tagname)
+- Annotated Tag										(git tag -a tagname -m "message that you will see"
+- Search about tag									(git tag -l "tagname"
+- Delete tag remotaly									(git tag -d tagname)
+- Delete tag from github								(git push origin --delete tagname)
+
+
 
 
 
