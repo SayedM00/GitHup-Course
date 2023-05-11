@@ -45,6 +45,8 @@
 - Delete tag remotaly									(git tag -d tagname)
 - Delete tag from github								(git push origin --delete tagname)
 
+Refernces and Notes : https://elzero.org/category/courses/git-and-github/
+
 
 
 
